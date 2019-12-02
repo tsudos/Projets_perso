@@ -1,11 +1,17 @@
+
 body{
+    background-image: url(sbaTattoo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: #444444;
     color : white;
     font-size:20px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    max-width: max-content;
     }
+
 @viewport {
     width: device-width; /* largeur du viewport */
     zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
