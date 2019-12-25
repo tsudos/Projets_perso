@@ -1,42 +1,23 @@
-
-body{
-    background-image: url(sbaTattoo.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #444444;
-    color : white;
-    font-size:20px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    max-width: max-content;
+/*viewport*/
+/*@viewport {
+    width: device-width; /* largeur du viewport 
+    zoom: 1; /* zoom initial à 1.0 
     }
-
-@viewport {
-    width: device-width; /* largeur du viewport */
-    zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
-    }
-/* @-webkit-viewport{
+@-webkit-viewport{
     width: device-width;
 }
 @-moz-viewport{
     width: device-width;
-} */
+} 
 @-ms-viewport{
     width: device-width;
 }
 @-o-viewport{
     width: device-width;
-}
-#page_entiere{
-    width: 100%;
-    height: auto;
-    display: table;
-    table-layout: fixed;
-    border-spacing: 0;
-    padding: 5px;
-    max-width: 1400px;
-}
+}*/
+
+
+/*bouton*/
 .btn {
     text-decoration: none;
     padding: 9px;
@@ -62,3 +43,65 @@ body{
     -webkit-box-shadow: -3px -3px 12px #95b3d7;
     -moz-box-shadow: -3px -3px 12px #95b3d7;
 }
+
+
+/*page*/
+#page_entiere{
+    width: 100%;
+    height: auto;
+    display: table;
+    table-layout: fixed;
+    border-spacing: 10px;
+    max-width: 1400px;
+}
+
+/*image*/
+#acceuil{
+    background-image: url(image/IMG_20191214_160258.jpg);
+    background-attachment: scroll;
+    background-size: 100vw;
+    background-color: #444444;
+}
+#salon{
+    background-image: url(image/sky-night-dark-black-1816.jpg);
+    transform: rotate(60deg);
+    background-color:  #161616;
+}
+
+/*body*/
+body{
+    background-repeat: no-repeat;
+    
+    background-position:center center;
+    
+    background-size: 100vw;
+    color : white;
+    font-size:20px;
+    box-sizing: border-box;
+    max-width: max-content;
+    padding-top: 40em;
+    min-height: 100%;
+    }
+
+/*header*/
+/*
+#page_entiere
+{
+    
+}
+*/
+
+
+
+
+/*section*/
+
+
+
+
+
+/*footer*/
+
+
+
+
