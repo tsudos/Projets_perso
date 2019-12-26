@@ -1,107 +1,85 @@
 /*viewport*/
-/*@viewport {
-    width: device-width; /* largeur du viewport 
-    zoom: 1; /* zoom initial à 1.0 
+@viewport {
+    width: device-width; /* largeur du viewport */
+    zoom: 1; /* zoom initial à 1.0  */
     }
-@-webkit-viewport{
-    width: device-width;
-}
-@-moz-viewport{
-    width: device-width;
-} 
 @-ms-viewport{
     width: device-width;
 }
 @-o-viewport{
     width: device-width;
-}*/
+}
 
 
 /*bouton*/
-.btn {
-    text-decoration: none;
-    padding: 9px;
-    font-family: tahoma;
-    font-size: 0.5em;
-    color: #0c0c0c;
-    background-color: #d8d8d8;
-    border-radius: 11px;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border: 3px groove #a5a5a5;
-    box-shadow: 3px 3px 12px #95b3d7;
-    -webkit-box-shadow: 3px 3px 12px #95b3d7;
-    -moz-box-shadow: 3px 3px 12px #95b3d7;
-}
-
-.btn:hover {
-    padding: 10px;
-    font-size: 0.6em;
-    background-color: #548dd4;
-    border: 3px solid #0f243e;
-    box-shadow: -3px -3px 12px #95b3d7;
-    -webkit-box-shadow: -3px -3px 12px #95b3d7;
-    -moz-box-shadow: -3px -3px 12px #95b3d7;
-}
-
 
 /*page*/
-#page_entiere{
-    width: 100%;
-    height: auto;
-    display: table;
-    table-layout: fixed;
-    border-spacing: 10px;
-    max-width: 1400px;
+body{
+    /*pas de margin pour une mise en page header / section-main / footer distribuer*/
+    margin: 0;
+}
+
+/* le code suivant permet de distrbuer la mise en page header / section-main / footer sur 100vh = 100% de la page*/
+.page-salon{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+.page-acceuil{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 /*image*/
-#acceuil{
-    background-image: url(image/IMG_20191214_160258.jpg);
-    background-attachment: scroll;
-    background-size: 100vw;
-    background-color: #444444;
+#img-acceuil{
+    background-image: url(image/FB_IMG_1568757459591.jpg);
+    background-position: CENTER CENTER;
+    background-size: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
-#salon{
-    background-image: url(image/sky-night-dark-black-1816.jpg);
-    transform: rotate(60deg);
-    background-color:  #161616;
+
+#img-salon{
+    background-image: url(image/FB_IMG_1568757459591.jpg);
+    background-position: center;
+    background-size: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /*body*/
 body{
-    background-repeat: no-repeat;
-    
-    background-position:center center;
-    
-    background-size: 100vw;
-    color : white;
-    font-size:20px;
-    box-sizing: border-box;
-    max-width: max-content;
-    padding-top: 40em;
-    min-height: 100%;
+    background-color:  black;
+    padding: 0px 10px 0px 10px;
     }
 
+
 /*header*/
-/*
-#page_entiere
-{
-    
+.site-header{
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    max-height: 1vh;
 }
-*/
 
-
-
-
-/*section*/
-
+/*main*/
+.site-content{
+    padding: 0px 10px 0px 10px;
+    /*met le footer en bas de page*/
+    flex: 1;
+    /*effet bizare à voir
+    padding: 1000px;*/
+    margin-top: 100px;
+}
 
 
 
 
 /*footer*/
-
-
-
-
+.site-footer{
+    background-color: black;
+    padding: 0px 10px 0px 10px;
+    color: white;
+    max-height: 1vh;
+}
