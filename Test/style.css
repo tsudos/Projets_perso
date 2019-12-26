@@ -41,9 +41,9 @@ body{
 }
 
 #img-salon{
-    background-image: url(image/FB_IMG_1568757459591.jpg);
+    background-image: url(image/essai.gif);
     background-position: center;
-    background-size: 100vh;
+    background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -59,7 +59,7 @@ body{
 .site-header{
     background-color: black;
     padding: 0px 10px 0px 10px;
-    color: white;
+    color: #59A1AB;
     max-height: 1vh;
 }
 
@@ -80,6 +80,6 @@ body{
 .site-footer{
     background-color: black;
     padding: 0px 10px 0px 10px;
-    color: white;
+    color: #59A1AB;
     max-height: 1vh;
 }
