@@ -18,7 +18,7 @@
         <meta name="language" content="Fr">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--pour récuperer la feuille de style dans un dossier-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
         <!--Pour du Style css interne-->
         <style>
 
@@ -28,26 +28,15 @@
 
     <body >
         <div class="page-acceuil">
-            <header class="site-header">
-                <h3>titre</h3>
-                <h1>Bonjour avec <span>Filezilla</span></h1>
+        <header class="site-header">
+                    <h3>Salon de Tatouage</h3>
+                    <h1>SBA Tatto <span id="name">avec Marie-Julie</span></h1>
+                <nav>
+                    <ul id="list">
+                        <li><a href="salon.php">Acceuil</a></li>
+                        <li><a href="base.php">image 1</a></li>
+                        <li><a href="base2.php">image 2</a></li>
+                        <li><a href="base3.php">image 3</a></li>
+                    </ul>
+                </nav>
             </header>
-
-            <main class="site-content" id="img-acceuil">
-            </main>
-
-            <footer class="site-footer">
-                <h3>couleurs graduées</h3>
-                fvsfdv
-                ssdf<br />
-                fvsfdvsdf<br />
-                dsf<br />
-                fvsfdvsdfdsf
-                dsf<br />
-                fsd<br />
-                dsf<br />
-                <p><a href="https://www.colorzilla.com/gradient-editor/" alt="generateur de couleurs graduées" title="colorzilla">generateur de couleurs graduées</a></p>
-            </footer>
-        </div>
-    </body>
-</html>

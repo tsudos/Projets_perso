@@ -50,30 +50,33 @@ body{
 
 /*body*/
 body{
-    background-color:  black;
-    padding: 0px 10px 0px 10px;
+    background-color:  rgb(10, 10, 10);
+
+    min-height: 100vh;
     }
 
 
 /*header*/
 .site-header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 0px 10px 0px 10px;
+    border-radius: 0px 0px 5px 5px;
     color: #59A1AB;
-    max-height: 1vh;
+}
+
+.site-header h3, .site-header h1, .site-footer h3, .site-footer p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 /*main*/
 .site-content{
-    padding: 0px 10px 0px 10px;
     /*met le footer en bas de page*/
-    flex: 1;
+    flex: 1 0 0;
     /*effet bizare à voir
     padding: 1000px;*/
-    margin-top: 100px;
+    border-radius: 5px 5px 5px 5px;
 }
-
-
 
 
 /*footer*/
@@ -81,5 +84,5 @@ body{
     background-color: black;
     padding: 0px 10px 0px 10px;
     color: #59A1AB;
-    max-height: 1vh;
+    border-radius: 5px 5px 0px 0px;
 }
