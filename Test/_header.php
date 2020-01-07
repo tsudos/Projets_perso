@@ -16,7 +16,7 @@
         <!--il existe aussi le noarchive-->
         <!--Pour généralisé <meta name="robots" content="none" -->
         <meta name="language" content="Fr">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <!--pour récuperer la feuille de style dans un dossier-->
         <link rel="stylesheet" href="style2.css">
         <!--Pour du Style css interne-->
@@ -27,16 +27,14 @@
     </head>
 
     <body >
-        <div class="page-acceuil">
+        <div class="page">
         <header class="site-header">
-                    <h3>Salon de Tatouage</h3>
-                    <h1>SBA Tatto <span id="name">avec Marie-Julie</span></h1>
+                    <h3>The Saloon Tattoo of Morestel</h3>
+                    <h1>SBA Tattoo <span id="name">avec Marie-Julie</span></h1>
                 <nav>
-                    <ul id="list">
-                        <li><a href="salon.php">Acceuil</a></li>
-                        <li><a href="base.php">image 1</a></li>
-                        <li><a href="base2.php">image 2</a></li>
-                        <li><a href="base3.php">image 3</a></li>
-                    </ul>
+                    <a href="salon.php">Acceuil</a>
+                    <a href="image1.php">image 1</a>
+                    <a href="image2.php">image 2</a>
+                    <a href="image3.php">image 3</a>
                 </nav>
             </header>

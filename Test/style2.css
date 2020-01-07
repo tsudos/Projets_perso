@@ -1,14 +1,14 @@
 /*viewport*/
-@viewport {
-    width: device-width; /* largeur du viewport */
-    zoom: 1; /* zoom initial à 1.0  */
+    @viewport {
+        width: device-width; /* largeur du viewport */
+        zoom: 1; /* zoom initial à 1.0  */
     }
-@-ms-viewport{
-    width: device-width;
-}
-@-o-viewport{
-    width: device-width;
-}
+    @-ms-viewport{
+        width: device-width;
+    }
+    @-o-viewport{
+        width: device-width;
+    }
 
 
 /*bouton*/
@@ -20,53 +20,58 @@ body{
 }
 
 /* le code suivant permet de distrbuer la mise en page header / section-main / footer sur 100vh = 100% de la page*/
-.page-salon{
-    display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-.page-acceuil{
+.page{
     display: flex;
 	flex-direction: column;
 	min-height: 100vh;
 }
 
 /*image*/
-#img-acceuil{
+#img-image1{
     background-image: url(image/FB_IMG_1568757459591.jpg);
-    background-position: CENTER CENTER;
-    background-size: 100vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-#img-salon{
-    background-image: url(image/essai.gif);
     background-position: center;
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
+#img-acceuil{
+    background-image: url(image/IMG_20191214_160257.jpg);
+    background-position: fixed;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*html*/
+html{
+    min-width: 350px;
+}
+
 /*body*/
 body{
     background-color:  rgb(10, 10, 10);
-
-    min-height: 100vh;
+    height: 100vh;
     }
 
 
 /*header*/
 .site-header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.575);
     padding: 0px 10px 0px 10px;
     border-radius: 0px 0px 5px 5px;
     color: #59A1AB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.site-header h3, .site-header h1, .site-footer h3, .site-footer p{
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+.site-header h3, .site-header h1, .site-header a, .site-footer h3, .site-footer p{
+    margin: 1vh;
+}
+
+a {
+    display: block;
 }
 
 /*main*/
