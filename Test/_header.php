@@ -31,19 +31,21 @@
     <body >
         <div class="page">
         <header id="header" role="banner">
-                <div class="logo">
+            <div class="header-inner">
+                <div class="header-logo">
                     <img id="logo" src="image/25-Tatouage-tribal.eu-Tatouage-tete-de-mort-.jpg" alt="logo"/>
                     <img id="logo2" src="image/25-Tatouage-tribal.eu-Tatouage-tete-de-mort-.jpg" alt="logo"/>
                 </div>
                 <div class="title-page">    
-                    <h1>SBA Tattoo <span id="name">avec Marie-Julie</span></h1>
+                    <h1>SBA Tattoo avec <span id="name"> Marie-Julie</span></h1>
                 </div>
-                <div class="navbar">
-                    <nav>
-                        <a href="salon.php">Acceuil</a>
-                        <a href="image1.php">image 1</a>
-                        <a href="image2.php">image 2</a>
-                        <a href="image3.php">image 3</a>
-                    </nav>
-                </div>
-            </header>
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="salon.php">Acceuil</a></li>
+                        <li><a href="image1.php">image 1</a></li>
+                        <li><a href="image2.php">image 2</a></li>
+                        <li><a href="image3.php">image 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
