@@ -1,7 +1,8 @@
 <?php 
     include_once("_header.php");
 ?>
-<main class="site-content" id="img-image2">
+<main id="content" id="img-image2">
+<p>image 2</p>
 </main>
 <?php
     include_once("_footer.php");

@@ -21,7 +21,7 @@ body{
 }
 
 
-.site-header h3, .site-header h1, .site-header a, .site-footer h3, .site-footer a, .site-content p{
+#header h3, #header h1, #header a, #footer h3, #footer a, #content p{
     margin: 0vh 1vh 1vh 1vh;
 }
 
@@ -51,7 +51,7 @@ body{
     }
 
 /*header*/
-.site-header{
+#header{
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 5px 5px;
 }
@@ -63,14 +63,14 @@ a{
 
 
 /*main*/
-.site-content{
+#content{
     border-radius: 5px 5px 5px 5px;
 
 }
 
 
 /*footer*/
-.site-footer{
+#footer{
     /*display: none;*/
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px 5px 0px 0px;
