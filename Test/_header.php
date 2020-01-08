@@ -18,7 +18,9 @@
         <meta name="language" content="Fr">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <!--pour récuperer la feuille de style dans un dossier-->
-        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style3.css">
+        <!--<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">-->
         <!--Pour du Style css interne-->
         <style>
 
@@ -29,7 +31,8 @@
     <body >
         <div class="page">
         <header class="site-header">
-                    <h3>The Saloon Tattoo of Morestel</h3>
+                    <img id="logo" src="image/25-Tatouage-tribal.eu-Tatouage-tete-de-mort-.jpg" alt="logo"/>
+                    <img id="logo2" src="image/25-Tatouage-tribal.eu-Tatouage-tete-de-mort-.jpg" alt="logo"/>
                     <h1>SBA Tattoo <span id="name">avec Marie-Julie</span></h1>
                 <nav>
                     <a href="salon.php">Acceuil</a>

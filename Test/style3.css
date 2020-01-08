@@ -1,0 +1,93 @@
+/*viewport*/
+    @viewport {
+        width: device-width; /* largeur du viewport */
+        zoom: 1; /* zoom initial à 1.0  */
+    }
+    @-ms-viewport{
+        width: device-width;
+    }
+    @-o-viewport{
+        width: device-width;
+    }
+
+
+
+
+/*page*/
+body{
+    /*pas de margin pour une mise en page header / section-main / footer distribuer*/
+    margin: 0;
+    color: #59A1AB;
+}
+
+
+.site-header h3, .site-header h1, .site-header a, .site-footer h3, .site-footer a, .site-content p{
+    margin: 0vh 1vh 1vh 1vh;
+}
+
+
+/*image*/
+
+#logo{
+    width:20vw;
+    max-width: 30vh;
+    border-radius: 50vh;
+    opacity: 0.2;
+    z-index: 999;
+    position: absolute;
+}
+#logo2{
+    width:20vw;
+    max-width: 30vh;
+    border-radius: 50vh;
+    border: 5px solid rgb(0, 224, 253);
+    z-index: 9;
+}
+
+
+/*body*/
+body{
+    background-color:  rgba(0,0,0,0.95);
+    }
+
+/*header*/
+.site-header{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 5px 5px;
+}
+
+a{
+    /*mets la nav en collonne*/
+    display: block;
+}
+
+
+/*main*/
+.site-content{
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+
+/*footer*/
+.site-footer{
+    /*display: none;*/
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/*bouton*/
+
+
+
+
+@media (max-width:600px) {
+    #logo, #logo2{
+        display: none;
+    }
+    a{
+        /*mets la nav en collonne*/
+        display: inline-block;
+    }
+}
