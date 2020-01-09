@@ -26,7 +26,7 @@ body{
     color: #59A1AB;
     background-color:  rgba(0,0,0,0.95);
     line-height: 1.75;
-    font-size: 3vw;
+    letter-spacing: 0.025em;
 }
 
 #name{
@@ -41,56 +41,66 @@ body{
 
 /*image*/
 
-#logo{
-    width:20vw;
-    max-width: 30vw;
-    border-radius: 50vw;
-    opacity: 0.3;
-    z-index: 999;
-    position: absolute;
-}
-#logo2{
-    width:20vw;
-    max-width: 30vw;
-    border-radius: 50vw;
-    border: 5px solid #59A1AB;
-    z-index: 9;
-}
+    #logo{
+        width:15vh;
+        border-radius: 50vw;
+        opacity: 0.3;
+        z-index: 999;
+        position: absolute;
+        text-align: center;
+    }
+    #logo2{
+        width:15vh;
+        border-radius: 50vw;
+        border: 5px solid #59A1AB;
+        z-index: 9;
+        
+    }
 
 /*header*/
 
     #header{
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 5px 5px;
+
+    }
+    
+    .header-logo{
+        width: 15vw; /* remplacer {X} par votre valeur */
+        padding-left: 4vh;
+        padding-top: 1vh;
     }
 
 
 
-    /* Les éléments sont placés l'un à côté de l'autre */
+    /* Les éléments sont placés l'un à côté de l'autre logo/title/nav*/
     .header-inner {
         display: table;
         width: 100%;
-
         margin: 0 auto; /* on centre l'élément */
-        padding: 0.5vw 2vw; /* on ventile un peu */
+        padding: 0.5vw 2vh; /* on ventile un peu */
     }
     .header-inner > * {
         display: table-cell;
         vertical-align: middle;
     }
 
+    /*title */
+    div .title-page{
+        text-align: center;
+    }
 
-
+    /*nav*/
     .header-nav ul,
     .header-nav li {
 	display: block;
-	list-style: none;
-}
+    list-style: none;
+    text-align: center;
+    }
 
 /*main*/
     #content{
         border-radius: 5px 5px 5px 5px;
-
     }
 
 
@@ -99,6 +109,7 @@ body{
         /*display: none;*/
         background-color: rgba(0, 0, 0, 0.2);
         border-radius: 5px 5px 0px 0px;
+        text-align: center;
     }
 
 
@@ -109,7 +120,7 @@ body{
 
 
 /*media*/
-    @media (max-width:600px) {
+    @media (max-width:400px) {
         body{
             /*pas de margin pour une mise en page header / section-main / footer distribuer*/
             line-height: 1.25;
@@ -119,44 +130,15 @@ body{
         #logo, #logo2{
             display: none;
         }
+        /* Les éléments sont placés l'un en dessous de l'autre */
 
-        /* Les éléments sont placés l'un à côté de l'autre */
-        .header-inner {
-            max-width: 100vw;
-            margin: 0 auto; /* on centre l'élément */
-        }
         .header-inner > * {
             display: inline;
         }
         .header-nav ul,
         .header-nav li {
-        display: inline;
-        list-style: none;
-    }
-
-    }
-
-    @media (max-width:370px) {
-        body{
-            /*pas de margin pour une mise en page header / section-main / footer distribuer*/
-            line-height: 1;
+        display: flex;
+        justify-content: space-between;
         }
 
-        
-        li{
-            /*mets la nav en collonne*/
-            display: inline;
-        }
-
-        /* Les éléments sont placés l'un en dessous de l'autre */
-        .header-inner {
-            max-width: 100vw;
-            margin: 0 auto; /* on centre l'élément */
-        }
-
-        .header-nav ul,
-        .header-nav li {
-        display: inline;
-        list-style: none;
     }
-}
