@@ -15,10 +15,15 @@ html, body, ul {
 	padding: 0; margin: 0;
 }
 
+/*mise en place d'un patron de police*/
+html {
+    font-size:18px;
+}
+
+
 /*mise en page grid-layout*/
 
 /*page en grid pour header/content/footer dont header en grid pour logo/title/nav*/
-
 
 /* Global Layout */
 .container {
@@ -32,6 +37,7 @@ html, body, ul {
         grid-row: 1;
         grid-column: 1/ span 3;
     }
+        /*layout in*/
         .container2 {
             display: grid;
             grid-template: 15vw 1fr 15vw;
@@ -54,15 +60,15 @@ html, body, ul {
         grid-column: 1/ span 3;
     }
 
+    /*design*/
+
 body{
     /*pas de margin pour une mise en page header / section-main / footer distribuer*/
     color: #59A1AB;
     background-color:  rgba(0,0,0,0.95);
     line-height: 1.75;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.025rem;
 }
-
-
 
 /*rajout image*/ 
 
@@ -105,6 +111,7 @@ body{
 
 #content{
     padding : 1vw;
+    font-size: 0.9rem;
 }
 
 
@@ -112,5 +119,6 @@ body{
 
 #footer{
     text-align: center;
+    font-size:0.8rem;
 }
 
