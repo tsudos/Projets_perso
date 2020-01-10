@@ -31,14 +31,12 @@
 
     <body >
         <div class="page container">
-        <header role="banner" class="container2">
-            
-                <div class="header-logo box1">
+                <div class="header-logo">
                 </div>
-                <div class="title-page box2">    
+                <div class="header-title">    
                     <h1>SBA Tattoo avec <span id="name"> Marie-Julie</span></h1>
                 </div>
-                <nav class="header-nav box3">
+                <nav class="header-nav">
                     <ul>
                         <li><a href="salon.php">Acceuil</a></li>
                         <li><a href="image1.php">image 1</a></li>
@@ -46,5 +44,3 @@
                         <li><a href="image3.php">image 3</a></li>
                     </ul>
                 </nav>
-            
-        </header>

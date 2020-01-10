@@ -1,9 +1,9 @@
 <?php 
     include_once("_header.php");
 ?>
-<main id="content" id="img-image3">
+<section id="content" id="img-image3">
     <p>image 3</p>
-</main>
+</section>
 <?php
     include_once("_footer.php");
 ?>

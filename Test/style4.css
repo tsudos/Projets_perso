@@ -15,7 +15,7 @@ html, body, ul {
 	padding: 0; margin: 0;
 }
 
-/*mise en place d'un patron de police*/
+/*mise en place d'un patron de police pour changement de la taille en 1 fois !*/
 html {
     font-size:18px;
 }
@@ -28,35 +28,30 @@ html {
 /* Global Layout */
 .container {
     display: grid;
-    grid-template: 1fr / 1fr / 1fr
+    grid-template:15vw 1fr 15vw/ 1fr / 1fr / 1fr
 }
 
 
     /* Explicit placement */
-    header {
-        grid-row: 1;
-        grid-column: 1/ span 3;
+
+    .header-logo{
+        grid-column: 1;
+        grid-row:1;
     }
-        /*layout in*/
-        .container2 {
-            display: grid;
-            grid-template: 15vw 1fr 15vw;
-        }
-            .box1{
-                grid-column: 1;
-            }
-            .box2{
-                grid-column: 2;
-            }
-            .box3 {
-                grid-column: 3;
-            }
+    .header-title{
+        grid-column: 2;
+        grid-row:1;
+    }
+    .header-nav {
+        grid-column: 3;
+        grid-row:1;
+    }
     section {
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 1/ span 3;
     }
     footer {
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1/ span 3;
     }
 
@@ -71,21 +66,20 @@ body{
 }
 
 /*rajout image*/ 
-
 /*image header*/
 .header-logo{
     background-image: url(image/25-Tatouage-tribal.eu-Tatouage-tete-de-mort-.jpg);
-    background-size: 100%;
-    background-position: center;
+    background-size: contain;
+    background-position : 50% 50%;
     background-repeat: no-repeat;
-    height: 10vw;
-    border-radius: 50vw;
+    width : 8rem; height : 8rem;
     border: 5px solid #59A1AB;
+    border-radius:75px;
     margin:2vw;
 }
 
 /*entête - title*/
-.title-page{
+.header-title{
     text-align: center;
     padding: 2vw;
 }
@@ -104,15 +98,22 @@ body{
 /*pour enlever le style de la liste*/
 .header-nav li {
     list-style: none;
+
 }
 
 
-/*Content*/
+/*Content/section*/
+
+section{
+    text-align: center;
+}
 
 #content{
     padding : 1vw;
     font-size: 0.9rem;
 }
+
+
 
 
 /*footer*/
@@ -122,3 +123,55 @@ body{
     font-size:0.8rem;
 }
 
+
+/*media queries*/
+
+@media screen and (max-width:900px) {
+
+    html {
+     font-size: 16px; /* rendre les polices plus petites pour mobile */
+    }
+
+    .header-logo{
+    display: none;
+    }
+
+    .header-title{
+        grid-column: 1/ span 2;
+        grid-row:1;
+    }
+    .header-nav{
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    html {
+     font-size: 14px; /* rendre les polices plus petites pour mobile */
+    }
+
+    p {
+     font-size: 1rem /* cet élément est désormais équivalent à 12px */
+    }
+
+    .header-title{
+        grid-row:1;
+        grid-column: 1/ span 3;
+    }
+    .header-nav {
+        grid-row:2;
+        grid-column: 1/ span 3;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    li{
+        display: inline;    
+    }
+
+}
