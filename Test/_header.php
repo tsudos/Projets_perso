@@ -30,8 +30,8 @@
     </head>
 
     <body >
-        <div class="page">
-        <header id="header" role="banner">
+        <div class="page container">
+        <header role="banner" class="container2">
             
                 <div class="header-logo box1">
                 </div>
