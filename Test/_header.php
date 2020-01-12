@@ -18,10 +18,11 @@
         <meta name="language" content="Fr">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <!--pour récuperer la feuille de style dans un dossier-->
-        <link rel="stylesheet" href="style4.css">
-        <!--<link rel="stylesheet" href="style3.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style2.css">-->
+        <link rel="stylesheet" media="(min-width: 851px)" href="style_desktop.css" type="text/css">
+        <!--<link rel="stylesheet" href="style3.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="attente.css" type="text/css">-->
+        <link rel="stylesheet" media="(max-width: 850px)" href="style_tab.css" type="text/css" />
         <!--Pour du Style css interne-->
         <style>
 
@@ -31,7 +32,7 @@
 
     <body >
         <div class="page container">
-                <div class="header-logo">
+                <div class="header-logo .hide_mobile">
                 </div>
                 <div class="header-title">    
                     <h1>SBA Tattoo avec <span id="name"> Marie-Julie</span></h1>

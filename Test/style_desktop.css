@@ -77,7 +77,8 @@ body{
     background-size: contain;
     background-position : 50% 50%;
     background-repeat: no-repeat;
-    width : 8rem; height : 8rem;
+    width : 15vh; height : 15vh ;
+    min-width: 100px; min-height : 100px;
     border: 5px solid #59A1AB;
     border-radius:75px;
     margin:auto;
@@ -123,6 +124,9 @@ p{
 
 img{
     width:100vw;
+    height:100vh;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
 }
 
 
@@ -133,4 +137,28 @@ img{
 #footer{
     text-align: center;
     font-size:0.8rem;
+}
+
+
+/*media queries*/
+
+@media screen and (max-width:900px) {
+
+    html {
+     font-size: 16px; /* rendre les polices plus petites pour mobile */
+    }
+
+    .header-logo{
+    display: none;
+    }
+
+    .header-title{
+        grid-column: 1/ span 2;
+        grid-row:1;
+    }
+    .header-nav{
+        text-align: center;
+    }
+
+
 }
