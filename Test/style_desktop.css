@@ -20,6 +20,12 @@ html {
     font-size:18px;
 }
 
+/* masquer les éléments superflus */
+
+.hide {
+    display: none !important;
+}
+
 
 /*mise en page grid-layout*/
 
@@ -137,6 +143,13 @@ img{
 #footer{
     text-align: center;
     font-size:0.8rem;
+}
+
+.reseaux {
+    font-size: 1.5rem;
+}
+.reseaux:nth-child(n+2) {
+    padding-left: 1rem;
 }
 
 

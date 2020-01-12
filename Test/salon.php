@@ -2,8 +2,8 @@
     include_once("_header.php");
 ?>
             <section id="content" id="img-acceuil">
-            <p>image acceuil</p>
-            <p>Des tatoos, une Vie ! </p>
+            <p class="hide">image acceuil mobile</p>
+            <p>Des tattoos, une Vie ! </p>
             <!--
             photo en mode portrait  alors que les 2 autres sont en mode paysage
             donc avec le css qui demande 100% du vh et du vw cela fait étiré    
