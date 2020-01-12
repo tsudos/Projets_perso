@@ -55,15 +55,20 @@ html {
         grid-column: 1/ span 3;
     }
 
+
+
+    
     /*design*/
 
 body{
     /*pas de margin pour une mise en page header / section-main / footer distribuer*/
     color: #59A1AB;
     background-color:  rgba(0,0,0,0.95);
-    line-height: 1.75;
     letter-spacing: 0.025rem;
+    padding-top:0.5rem;
 }
+
+
 
 /*rajout image*/ 
 /*image header*/
@@ -75,13 +80,13 @@ body{
     width : 8rem; height : 8rem;
     border: 5px solid #59A1AB;
     border-radius:75px;
-    margin:2vw;
+    margin:auto;
 }
 
 /*entête - title*/
 .header-title{
     text-align: center;
-    padding: 2vw;
+    margin:auto;
 }
 #name{
     color: rgba(255, 255, 255, 0.644);
@@ -91,26 +96,33 @@ body{
 /*nav*/
 .header-nav{
     text-align: right;
-    padding-right: 2vw;
-    padding-top: 2vw;
+    margin:auto;
 }
 
 /*pour enlever le style de la liste*/
 .header-nav li {
     list-style: none;
-
+    line-height: 1.75;
 }
+/*lien*/
+a{
+    color:#59A1AB;
+}
+
 
 
 /*Content/section*/
 
-section{
+p{
     text-align: center;
 }
 
 #content{
-    padding : 1vw;
     font-size: 0.9rem;
+}
+
+img{
+    width:100vw;
 }
 
 
@@ -122,6 +134,10 @@ section{
     text-align: center;
     font-size:0.8rem;
 }
+
+
+
+
 
 
 /*media queries*/
