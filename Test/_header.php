@@ -9,7 +9,6 @@
         <meta name="doc-rights" content="Copywritten Work">
         <meta name="description" content="page d'acceuil SBA-Tatoo"/>
         <!--<meta name="generator" content="? Framework utilisé / CMS / ?" />-->
-        <!--<Meta name="keywords" content="Ne sert plus aujourd'hui"/>-->
         <!--Si on veut être indéxé sur les news google : <meta name="news_keywords" content="Base, HTML, CSS,...">-->
         <meta name="google" content="noindex, nofollow"> <!--pour ne pas indexer la page ni suivre les liens / index et follow sont la base-->
         <meta name="bingbot" content="noindex, nofollow"> <!--Pour Bing-->
@@ -27,7 +26,6 @@
         <style>
 
         </style>
-
     </head>
 
     <body >
