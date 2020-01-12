@@ -109,6 +109,9 @@
 	li{
 		display: inline;    
 	}
+	ul{
+		padding:0;
+	}
 }
 
 @media (max-device-width:768px) and (orientation: landscape) {
