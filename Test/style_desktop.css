@@ -120,23 +120,74 @@ a{
 
 /*Content/section*/
 
-p{
-    text-align: center;
-}
+
 
 #content{
     font-size: 0.9rem;
-    background-size: cover ;
+    /*pour faire du 3/4-1/4 alternant
+    display: grid;
+    grid-template: 33vw 32vw 33vw;*/
+    
+    /*pour faire mumuse avec flex
+    display : flex;*/
+
 }
 
+/*si pas d'alternance d'image*/
 img{
-    width:98vw;
+    width:75vw;
     border: 1px solid #59A1AB;
     border-radius:10px;
     height: auto;
 }
+/*
+p{
+    text-align: center;
+    grid-row: 1;
+    grid-column:2/span 3;
+}
 
-
+.img1{
+    width:75vw;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
+    height: auto;
+    grid-row: 1;
+    grid-column:1/span 2;
+}
+.img2{
+    width:75vw;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
+    height: auto;
+    grid-row: 2;
+    grid-column:2/span 3;
+}
+.img3{
+    width:75vw;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
+    height: auto;
+    grid-row: 3;
+    grid-column:1/span 2;
+}
+.img4{
+    width:75vw;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
+    height: auto;
+    grid-row: 4;
+    grid-column:2/span 3;
+}
+.img5{
+    width:75vw;
+    border: 1px solid #59A1AB;
+    border-radius:10px;
+    height: auto;
+    grid-row: 5;
+    grid-column:1/span 2;
+}
+*/
 
 
 /*footer*/
