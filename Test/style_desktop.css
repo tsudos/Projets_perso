@@ -126,13 +126,14 @@ p{
 
 #content{
     font-size: 0.9rem;
+    background-size: cover ;
 }
 
 img{
-    width:100vw;
-
+    width:98vw;
     border: 1px solid #59A1AB;
     border-radius:10px;
+    height: auto;
 }
 
 
