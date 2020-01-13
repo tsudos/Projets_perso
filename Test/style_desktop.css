@@ -127,7 +127,7 @@ a{
     /*pour faire du 3/4-1/4 alternant
     display: grid;
     grid-template: 33vw 32vw 33vw;*/
-    
+
     /*pour faire mumuse avec flex
     display : flex;*/
 
@@ -135,7 +135,8 @@ a{
 
 /*si pas d'alternance d'image*/
 img{
-    width:75vw;
+    /*width:75vw;*/
+    width:98vw;
     border: 1px solid #59A1AB;
     border-radius:10px;
     height: auto;
