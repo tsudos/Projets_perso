@@ -17,11 +17,11 @@
         <meta name="language" content="Fr">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <!--pour récuperer la feuille de style dans un dossier-->
-        <link rel="stylesheet" media="(min-width: 851px)" href="style_desktop.css" type="text/css">
-        <!--<link rel="stylesheet" href="style3.css" type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link rel="stylesheet" href="attente.css" type="text/css">-->
-        <link rel="stylesheet" media="(max-width: 850px)" href="style_tab.css" type="text/css" />
+        <link rel="stylesheet" media="(min-width: 851px)" href="css/style_desktop.css" type="text/css">
+        <!--<link rel="stylesheet" href="css/style3.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/attente.css" type="text/css">-->
+        <link rel="stylesheet" media="(max-width: 850px)" href="css/style_tab.css" type="text/css" />
         <!--Pour du Style css interne-->
         <style>
 
