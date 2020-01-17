@@ -102,7 +102,7 @@
 		grid-column: 1/ span 3;
 	}
 
-	.header-title, nav{
+	.header-title, nav, #footer{
 		text-align: center;
 	}
 
