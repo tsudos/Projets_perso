@@ -12,17 +12,14 @@
         <!--<meta name="generator" content="? Framework utilisé / CMS / ?" />-->
 
         <!--Si on veut être indéxé sur les news google : <meta name="news_keywords" content="Base, HTML, CSS,...">-->
-        <meta name="google" content="index, follow"> <!--pour ne pas indexer la page ni suivre les liens / index et follow sont la base-->
-        <meta name="bingbot" content="index, follow"> <!--Pour Bing-->
-        <!--il existe aussi le noarchive-->
-        <!--Pour généralisé <meta name="robots" content="none" -->
+        <meta name="google" content="index, follow"> 
+        <meta name="bingbot" content="index, follow">
+
 
         <meta name="language" content="Fr">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <!--<meta name="viewport" content="initial-scale=1, minimum-scale=0.25, maximum-scale=5" />-->
 
-        <!--pour récuperer la feuille de style dans un dossier-->
         <link rel="stylesheet" media="(min-width: 587px)" href="css/style_desktop.css" type="text/css">
         <link rel="stylesheet" href="css/form.css" type="text/css">
         <link rel="stylesheet" media="(max-width: 586px)" href="css/style_tab.css" type="text/css" />
