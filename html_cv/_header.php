@@ -1,19 +1,19 @@
 <!doctype html>
 <html>
     <head>
-        <title>CV Responcive</title>
+        <title>CV Dévellopeur | Dufour Stéphane | PHP 7.4 Symfony 5 MySQL 8</title>
         
         <meta name="author" content="Stéphane DUFOUR" />
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
         
         <!--La balise Copyright pour protéger son site au besoin : <meta name="copyright" content="TsudWeb" />-->
         <meta name="doc-rights" content="Copywritten Work">
-        <meta name="description" content="CV Perso"/>
+        <meta name="description" content="CV Dévellopeur Dufour Stéphane PHP 7.4 Symfony 5 MySQL 8 Java JEE"/>
         <!--<meta name="generator" content="? Framework utilisé / CMS / ?" />-->
 
         <!--Si on veut être indéxé sur les news google : <meta name="news_keywords" content="Base, HTML, CSS,...">-->
-        <meta name="google" content="noindex, nofollow"> <!--pour ne pas indexer la page ni suivre les liens / index et follow sont la base-->
-        <meta name="bingbot" content="noindex, nofollow"> <!--Pour Bing-->
+        <meta name="google" content="index, follow"> <!--pour ne pas indexer la page ni suivre les liens / index et follow sont la base-->
+        <meta name="bingbot" content="index, follow"> <!--Pour Bing-->
         <!--il existe aussi le noarchive-->
         <!--Pour généralisé <meta name="robots" content="none" -->
 
@@ -34,7 +34,7 @@
 
         <!--permet d'avoir des icones-->
         <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
-        <script src="awesome.js"></script>
+        <script src="script/awesome.js"></script>
     </head>
 
     <body>
