@@ -22,6 +22,7 @@
 
         <link rel="stylesheet" media="(min-width: 587px)" href="css/style_desktop.css" type="text/css">
         <link rel="stylesheet" href="css/form.css" type="text/css">
+        <link rel="stylesheet" href="css/formMaps.css" type="text/css">
         <link rel="stylesheet" media="(max-width: 586px)" href="css/style_tab.css" type="text/css" />
 
         <!--Pour du Style css interne-->
@@ -32,7 +33,11 @@
         <!--permet d'avoir des icones-->
         <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
         <script src="script/awesome.js"></script>
-    </head>
+        <!--essai d ecriture auto 
+        <script src="script/script-text.js"></script>
+        <script src="scripts/typed.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+        </head>
 
     <body>
         <div id="Ma_Page">
@@ -40,10 +45,10 @@
 
             <!--Réseaux Sociaux-->
             <div id="social" class="box-social-link">
-                <a href='https://github.com/tsudos'target='_blank'><i class="fab fa-github fa-2x "></i></a>
-                <a href='https://www.linkedin.com/in/stephane-dufour-6102b4b3/' target='_blank'><i class="fab fa-linkedin fa-2x"></i></a>
-                <a href='https://www.instagram.com/tsudos.des.iles/'target='_blank'><i class="fab fa-instagram fa-2x"></i></a>
-                <a href='https://www.facebook.com/Tsudos.des.iles'target='_blank'><i class="fab fa-facebook fa-2x "></i></a>
+                <a href='https://github.com/tsudos'target='_blank'><i class="fab fa-github fa-1x "></i></a>
+                <a href='https://www.linkedin.com/in/stephane-dufour-6102b4b3/' target='_blank'><i class="fab fa-linkedin fa-1x"></i></a>
+                <a href='https://www.instagram.com/tsudos.des.iles/'target='_blank'><i class="fab fa-instagram fa-1x"></i></a>
+                <a href='https://www.facebook.com/Tsudos.des.iles'target='_blank'><i class="fab fa-facebook fa-1x "></i></a>
             </div>
             <!--Fin Réseaux Sociaux-->
 

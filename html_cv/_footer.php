@@ -1,8 +1,2 @@
             <!--Footer-->
-            <div id="footer">
-                <p>Essai de footer Include</p>
-
-            </div>
-        </div>
-    </body>
-</html>
+            <h3 class="footer">Essai de footer Include</h3>
