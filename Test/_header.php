@@ -29,7 +29,8 @@
     </head>
 
     <body >
-        <div class="page container">
+
+        <div class="page container parallax">
                 <div class="header-logo .hide_mobile">
                 </div>
                 <div class="header-title">    
@@ -37,7 +38,7 @@
                 </div>
                 <nav class="header-nav">
                     <ul>
-                        <li><a href="salon.php">Acceuil</a></li>
+                        <li><a href="index.php">Acceuil</a></li>
                         <li><a href="image1.php">image 1</a></li>
                         <li><a href="image2.php">image 2</a></li>
                         <li><a href="image3.php">image 3</a></li>

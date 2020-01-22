@@ -63,7 +63,7 @@ html {
 body{
     /*pas de margin pour une mise en page header / section-main / footer distribuer*/
     color: #59A1AB;
-    background-color:  rgba(0,0,0,0.95);
+    background-color:  rgba(0,0,0,0.94);
     letter-spacing: 0.025rem;
     padding-top:0.5rem;
 }
