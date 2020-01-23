@@ -1,2 +1,2 @@
             <!--Footer-->
-            <h3 class="footer">Essai de footer Include</h3>
+                <div class="text footer">a</div>

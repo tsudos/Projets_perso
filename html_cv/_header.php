@@ -33,6 +33,7 @@
         <!--permet d'avoir des icones-->
         <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script>-->
         <script src="script/awesome.js"></script>
+        <script src="script/TextScramble.js"></script>
         <!--essai d ecriture auto 
         <script src="script/script-text.js"></script>
         <script src="scripts/typed.min.js"></script>
