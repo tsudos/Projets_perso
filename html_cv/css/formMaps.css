@@ -31,3 +31,24 @@ embed{
     border-radius: 15px;
 }
 
+
+/*Tableau*/
+.Main_Tableau{
+    border-radius: 15px;
+    border: 1px solid #0B120B;
+    grid-row: 2;
+    grid-column:2/8;
+    background-color: #FCF342;
+    height: 50%;
+}
+.Main_Tableau td{
+    border-radius: 15px;
+    border: 1px solid #0B120B;
+    background-color: #97D1AB;
+    text-align: center;
+}
+.Main_Tableau th{
+    border-radius: 15px;
+    border: 1px solid #0B120B;
+    background-color: #97D1AB;
+}
