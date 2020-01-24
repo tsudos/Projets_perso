@@ -155,6 +155,24 @@ html {
     color:#FCF342; 		
 }
 
+/*Main*/
+.Main_title{
+    grid-row: 2;
+    grid-column:1;
+}
+.Main_img_tatouage{
+    border-radius: 15px;
+    box-shadow:0px 0px 50px #FCF342;
+    grid-row: 2;
+    grid-column:10/13;
+}
+
+/*Footer*/
+.footer{
+    grid-column:1/13;
+    grid-row: 3;
+}
+
 /*animation*/
 .animation{
     grid-column:2/4;
@@ -172,20 +190,10 @@ html {
     margin-top:0px;
 }
 
-/*Main*/
-.Main_title{
-    grid-row: 2;
-    grid-column:1;
-}
-.Main_img_tatouage{
-    border-radius: 15px;
-    box-shadow:0px 0px 50px #FCF342;
-    grid-row: 2;
-    grid-column:10/13;
-}
 
-/*Footer*/
-.footer{
-    grid-column:1/13;
-    grid-row: 3;
+@media screen and (max-width:761px){
+    .animation{
+        font-size: 0.90rem;
+    }
+
 }
