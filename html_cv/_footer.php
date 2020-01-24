@@ -1,2 +1,2 @@
             <!--Footer-->
-            <p>Footer</p>
+            <p class="footer">Footer</p>

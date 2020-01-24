@@ -1,13 +1,14 @@
 <div class="text animation">
-    <h3>Dufour Stéphane</h3> </br>
+    <p>Dufour Stéphane</p> </br>
     <span
         class="txt-rotate"
         data-period="1000"
         data-rotate='[ 
-            "Je suis développeur",
-            "PHP",
-            "Symfony",
-            "IOT",
-            "Cobotique" ]'>
+            "Développeur",
+            "PHP 7.2/7.4",
+            "Symfony 4.4/5",
+            "Java-JEE",
+            "Auvergne Rhône-alpes"
+            ]'>
     </span>
 </div>

@@ -40,16 +40,16 @@ html {
     width:100vw;
     display:grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 20vh 1fr 10vh;
+    grid-template-rows: minmax(80px, 135px) 1fr 50px;
     background-color: #97D1AB;
 }
 
 /*lien sociaux*/
 .box-social-link{
-    height:25px;
     width:100%;
-    grid-column: 11/13;
+    grid-column: 10/13;
     text-align: center;
+    min-height: 100px;
 }
 
 .fab{
@@ -79,7 +79,7 @@ html {
     background-size: contain;
     background-position : 50% 50%;
     background-repeat: no-repeat;
-    width : 15vh; height : 15vh ;
+    width : 15vh; height : 15vh;
     box-shadow:0px 0px 10px #0B120B;
     border-radius:75px;
     padding: 1vh;
@@ -110,9 +110,8 @@ html {
 	text-transform: uppercase;
 	text-align: center;
     grid-row: 1;
-    grid-column:3/11;
+    grid-column:4/10;
 }
-
 
 .navigation ul li  
 {
@@ -148,14 +147,29 @@ html {
 
 .navigation a:hover {	
     color:#0B120B; 
-    
-    /*rajouté une ombre*/
     }
-    
+
 
 .navigation a:active {
     text-decoration:none;
     color:#FCF342; 		
+}
+
+/*animation*/
+.animation{
+    grid-column:2/4;
+    grid-row: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.animation p{
+    margin-bottom:0px;
+}
+
+.animation span{
+    color:#FCF342; 
+    margin-top:0px;
 }
 
 /*Main*/
@@ -170,16 +184,8 @@ html {
     grid-column:10/13;
 }
 
-
-
 /*Footer*/
 .footer{
     grid-column:1/13;
     grid-row: 3;
-}
-
-/*animation*/
-.animation{
-    grid-column:2/4;
-    grid-row: 1;
 }

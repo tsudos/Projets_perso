@@ -20,10 +20,10 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
-        <link rel="stylesheet" media="(min-width: 587px)" href="css/style_desktop.css" type="text/css">
+        <link rel="stylesheet" media="(min-width: 666px)" href="css/style_desktop.css" type="text/css">
         <link rel="stylesheet" href="css/form.css" type="text/css">
         <link rel="stylesheet" href="css/formMaps.css" type="text/css">
-        <link rel="stylesheet" media="(max-width: 586px)" href="css/style_tab.css" type="text/css" />
+        <link rel="stylesheet" media="(max-width: 665px)" href="css/style_tab.css" type="text/css" />
 
         <!--Pour du Style css interne-->
         <style>
