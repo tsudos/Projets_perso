@@ -148,7 +148,7 @@ ul.social-network li {
 	display:inline;
 	margin: 0 18px;	
 }
-.fab{
+.fab, .fas{
 	color:white;
 }
 
@@ -163,8 +163,16 @@ ul.social-network li a {
 	color: black;
 }
 
-.fa-wordpress:hover{
+.fa-wordpress:hover, .fa-wordpress-simple:hover{
 	color: #0073AA;
+}
+
+.fa-radiation-alt:hover{
+	color: #23C4D6;
+}
+
+.fa-radiation-alt:hover{
+	color: #23C4D6;
 }
 
 .social-network li:hover .fa-facebook {
